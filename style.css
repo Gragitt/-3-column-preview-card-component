@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.grid{
+    display: grid;
+    width: 115em;
+    grid-gap: 0rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+.grid-item{
+    padding: 50px 30px;
+    background-color: #ffa500;
+    display: block;
+    min-width: 100px;
+    min-height: 400px;
+    object-fit: cover;
+}
+.suv{
+    background-color: lightslategray !important;
+}
+
+.lux{
+    background-color: darkslategrey;
+}
+.card-img{
+    width: 50px;
+    height: 50px;
+
+}
+.card-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.card-txt{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 2.5rem;
+}
+.card-btn{
+    display: block;
+    width: 50%;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    color: #ff0000;
+    background-color: #ffffff;
+    border-radius: 5rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+.card-btn:hover,
+.card-btn:active{
+    background-color: #c2cffc;
+}
