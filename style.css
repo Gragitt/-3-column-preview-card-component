@@ -35,13 +35,13 @@ body{
 .suv{
     background-color: lightslategray !important;
 }
-.card-1{
-    
-}
+
 .lux{
     background-color: darkslategrey;
 }
 .card-img{
+    width: 60px;
+    height: 60x;
 
 }
 .card-header{
